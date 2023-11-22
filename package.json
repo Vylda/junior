@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "npm run eslint && npm run ts && npm run stylelint",
-    "eslint": "eslint --color --config .eslintrc.js --ext ts ./src/**.* --ext tsx ./src/**.*",
+    "eslint": "eslint --color --config .eslintrc.js --ext ts --ext tsx ./src/",
     "stylelint": "stylelint ./src/css/**/*.css --color",
     "ts": "tsc --pretty --noEmit",
     "start": "vite",
